@@ -12,5 +12,7 @@ namespace WebApi.Models
         public Fabricante Fabricante { get; set; }
         public int FabricanteId { get; set; }
 
+        public decimal Precio { get; set; }
+
     }
 }
